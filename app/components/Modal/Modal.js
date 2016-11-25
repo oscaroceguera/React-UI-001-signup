@@ -3,10 +3,7 @@ import { Modal, ModalForm } from './styles.css'
 import Input from '../Input/Input'
 
 const { func } = React.PropTypes
-
-ModalComponent.propTypes = {
-  onSubmit: func.isRequired
-}
+ModalComponent.propTypes = { onSubmit: func.isRequired }
 
 function ModalComponent ({ onSubmit }) {
   return (
